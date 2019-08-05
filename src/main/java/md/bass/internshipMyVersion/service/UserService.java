@@ -8,6 +8,6 @@ public interface UserService {
     void updateUser(User newUser ,Integer id);
     Iterable<User> findUser();
     void deleteUser (Integer id);
-    void saveUser (User user);//save user
+    void saveUser (User user);
 
 }
